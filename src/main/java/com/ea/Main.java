@@ -30,8 +30,8 @@ public class Main {
     public static void main(String[] args) {
 
         //Selenium 4
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ruben.aldea.gonzalo\\Downloads\\chromedriver");
-        chromeDriver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "C:\\RUBEN\\Libs\\chromedriver.exe");
+        var chromeDriver = new ChromeDriver();
 
         var chromeDevTools = chromeDriver.getDevTools();
         //Session of ChromeDevTool
